@@ -1,0 +1,28 @@
+nf:
+  host: scp2.scp.5gc.mnc099.mcc208.3gppnetwork.org
+  nrf_uri: http://nrf.5gc.mnc099.mcc208.3gppnetwork.org
+  nssf_uri: http://nssf.5gc.mnc099.mcc208.3gppnetwork.org
+  name: scp2.scp.5gc.mnc099.mcc208.3gppnetwork.org
+  allowed_nssai: # type Vec<ExtSnssai>
+    - sst: 1
+      sd: '000001'
+    - sst: 1
+      sd: '000002'
+    - sst: 1
+      sd: '000003'
+  nssai: # type Vec<ExtSnssai>
+    - sst: 1
+      sd: '000002'
+  plmns:
+    - mcc: '208'
+      mnc: '99'
+  allowed_plmns:
+    - mcc: '208'
+      mnc: '99'
+
+scp:
+  mode: 'D'
+  next_hop: false
+  next_scp: ''
+  dumper_interval: 180
+  log_folder: /root/logs

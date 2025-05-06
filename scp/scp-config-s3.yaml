@@ -1,0 +1,28 @@
+nf:
+  host: lynx.cs.binghamton.edu
+  nrf_uri: jaguar.cs.binghamton.edu
+  nssf_uri: rhaegal.cs.binghamton.edu
+  name: lynx.cs.binghamton.edu
+  allowed_nssai: # type Vec<ExtSnssai>
+    - sst: 1
+      sd: '000001'
+    - sst: 1
+      sd: '000002'
+    - sst: 1
+      sd: '000003'
+  nssai: # type Vec<ExtSnssai>
+    - sst: 1
+      sd: '000003'
+  plmns:
+    - mcc: '208'
+      mnc: '99'
+  allowed_plmns:
+    - mcc: '208'
+      mnc: '99'
+
+scp:
+  mode: 'D'
+  next_hop: false
+  next_scp: ''
+  dumper_interval: 180
+  log_folder: /root/logs
