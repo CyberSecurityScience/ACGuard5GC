@@ -1,0 +1,13 @@
+build
+**/target/
+**/gtp_gateway
+**/internet_gateway
+*.tar
+*.pcap
+*.pyc
+tmp/
+malware_traffic/
+testbed/malware_traffic
+apks/
+*.7z
+.VSCodeCounter
